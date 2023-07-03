@@ -156,12 +156,13 @@ main a:hover{
     color: #e94b0d;
     
 }
-article aside{
-    width: 750px;
+aside{
     background-color: #53ce88;
     margin: auto;
     border-radius: 10px;
     box-shadow: 0px 0px 10px #0f522dbe;
+    min-width: 280px;
+    max-width: 750px;
 }
 aside > p{
     padding: 5px;
